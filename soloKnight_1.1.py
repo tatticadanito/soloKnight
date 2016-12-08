@@ -29,7 +29,7 @@ def blankGrid(grid):                        #Clears the grid, preaparing it for 
             grid [i][j] = '.'
     
 def printMap(grid):         #Prints the map
-    print('HOW TO READ THE MAP:\n\t[*]EMPTY SPACE = \'O\'\n\t[*]PLAYER = \'X\'\t\t(ONE MOVE ON ONE AXIS)\n\t[*]KNIGHT = \'K\' \'J\'\t(ONE MOVE ON EACH AXIS)\n')
+    print('HOW TO READ THE MAP:\n\t[*]EMPTY SPACE = \'.\'\n\t[*]PLAYER = \'X\'\t\t(ONE MOVE ON ONE AXIS)\n\t[*]KNIGHT = \'K\' \'J\'\t(ONE MOVE ON EACH AXIS)\n')
     for i in range(len(grid)):
         print('', end='\t')
         for j in range(len(grid[i])):
