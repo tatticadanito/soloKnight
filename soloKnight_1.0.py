@@ -148,3 +148,4 @@ if units['player'][3]:
     print('\n\t+-YOU-WON-+')
 else:
     print('\n\t--YOU-LOST--')
+input()
